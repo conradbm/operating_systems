@@ -1,0 +1,1 @@
+java -classpath ../threads:../machine:../filesys:../userprog:../vm:/usr/local/java/jre/lib/rt.jar Nachos -st fcfs $*

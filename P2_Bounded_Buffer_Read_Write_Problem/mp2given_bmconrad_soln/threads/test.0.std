@@ -1,0 +1,180 @@
+Forking thread: main
+	interrupts: off -> off
+Putting thread on ready list: main
+	interrupts: off -> off
+Scheduling first Nachos thread
+Switching to thread: main
+writer 1 is sleeping
+reader 1 is sleeping
+reader 2 is sleeping
+reader 3 is sleeping
+writer 2 is sleeping
+writer 3 is sleeping
+reader 4 is sleeping
+reader 5 is sleeping
+writer 4 is sleeping
+writer 5 is sleeping
+writer 1 wants to write
+writer 1 is writing
+reader 1 wants to read
+reader 2 wants to read
+reader 3 wants to read
+writer 2 wants to write
+writer 3 wants to write
+reader 4 wants to read
+reader 5 wants to read
+writer 4 wants to write
+writer 5 wants to write
+writer 1 is done writing
+writer 1 is sleeping
+reader 1 is reading.  Count = 1
+writer 1 wants to write
+reader 2 is reading.  Count = 2
+reader 1 is done reading.  Count = 1
+reader 1 is sleeping
+reader 3 is reading.  Count = 2
+reader 2 is done reading.  Count = 1
+reader 2 is sleeping
+reader 1 wants to read
+reader 3 is done reading.  Count = 0
+reader 3 is sleeping
+reader 2 wants to read
+writer 2 is writing
+reader 3 wants to read
+writer 2 is done writing
+writer 2 is sleeping
+writer 3 is writing
+writer 2 wants to write
+writer 3 is done writing
+writer 3 is sleeping
+writer 4 is writing
+writer 3 wants to write
+writer 4 is done writing
+writer 4 is sleeping
+writer 5 is writing
+writer 4 wants to write
+writer 5 is done writing
+writer 5 is sleeping
+writer 1 is writing
+writer 5 wants to write
+writer 1 is done writing
+writer 1 is sleeping
+writer 2 is writing
+writer 1 wants to write
+writer 2 is done writing
+writer 2 is sleeping
+writer 3 is writing
+writer 2 wants to write
+writer 3 is done writing
+writer 3 is sleeping
+writer 4 is writing
+writer 3 wants to write
+writer 4 is done writing
+writer 4 is sleeping
+writer 5 is writing
+writer 4 wants to write
+writer 5 is done writing
+writer 5 is sleeping
+writer 1 is writing
+writer 5 wants to write
+writer 1 is done writing
+writer 1 is sleeping
+writer 2 is writing
+writer 1 wants to write
+writer 2 is done writing
+writer 2 is sleeping
+writer 3 is writing
+writer 2 wants to write
+writer 3 is done writing
+writer 3 is sleeping
+writer 4 is writing
+writer 3 wants to write
+writer 4 is done writing
+writer 4 is sleeping
+writer 5 is writing
+writer 4 wants to write
+writer 5 is done writing
+writer 5 is sleeping
+writer 1 is writing
+writer 5 wants to write
+writer 1 is done writing
+writer 2 is writing
+writer 2 is done writing
+writer 3 is writing
+writer 3 is done writing
+writer 4 is writing
+writer 4 is done writing
+writer 5 is writing
+writer 5 is done writing
+reader 4 is reading.  Count = 1
+reader 5 is reading.  Count = 2
+reader 1 is reading.  Count = 3
+reader 2 is reading.  Count = 4
+reader 3 is reading.  Count = 5
+reader 4 is done reading.  Count = 4
+reader 4 is sleeping
+reader 5 is done reading.  Count = 3
+reader 5 is sleeping
+reader 1 is done reading.  Count = 2
+reader 1 is sleeping
+reader 2 is done reading.  Count = 1
+reader 2 is sleeping
+reader 3 is done reading.  Count = 0
+reader 3 is sleeping
+reader 4 wants to read
+reader 4 is reading.  Count = 1
+reader 5 wants to read
+reader 5 is reading.  Count = 2
+reader 1 wants to read
+reader 1 is reading.  Count = 3
+reader 2 wants to read
+reader 2 is reading.  Count = 4
+reader 3 wants to read
+reader 3 is reading.  Count = 5
+reader 4 is done reading.  Count = 4
+reader 4 is sleeping
+reader 5 is done reading.  Count = 3
+reader 5 is sleeping
+reader 1 is done reading.  Count = 2
+reader 1 is sleeping
+reader 2 is done reading.  Count = 1
+reader 2 is sleeping
+reader 3 is done reading.  Count = 0
+reader 3 is sleeping
+reader 4 wants to read
+reader 4 is reading.  Count = 1
+reader 5 wants to read
+reader 5 is reading.  Count = 2
+reader 1 wants to read
+reader 1 is reading.  Count = 3
+reader 2 wants to read
+reader 2 is reading.  Count = 4
+reader 3 wants to read
+reader 3 is reading.  Count = 5
+reader 4 is done reading.  Count = 4
+reader 4 is sleeping
+reader 5 is done reading.  Count = 3
+reader 5 is sleeping
+reader 1 is done reading.  Count = 2
+reader 2 is done reading.  Count = 1
+reader 3 is done reading.  Count = 0
+reader 4 wants to read
+reader 4 is reading.  Count = 1
+reader 5 wants to read
+reader 5 is reading.  Count = 2
+reader 4 is done reading.  Count = 1
+reader 5 is done reading.  Count = 0
+Bounded Buffer Result:
+If you can read this, then you have passed the bounded buffer test.  Congratulations!! 
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 32510, idle 40, system 32470, user 0
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+

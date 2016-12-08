@@ -1,0 +1,181 @@
+Testing Round Robin Scheduling
+Forking thread: main
+	interrupts: off -> off
+Putting thread on ready list: main
+	interrupts: off -> off
+Scheduling first Nachos thread
+Switching to thread: main
+Starting at Ticks: total 0
+Queuing threads.
+Queuing thread threadA at Time 0, priority 0
+Queuing thread threadB at Time 0, priority 0
+Queuing thread threadC at Time 0, priority 0
+threadA, Starting Burst of 7 Ticks: total 0
+threadA, Still 6 to go Ticks: total 10
+threadA, Still 5 to go Ticks: total 20
+threadA, Still 4 to go Ticks: total 30
+threadB, Starting Burst of 9 Ticks: total 40
+threadB, Still 8 to go Ticks: total 50
+threadB, Still 7 to go Ticks: total 60
+threadB, Still 6 to go Ticks: total 70
+threadC, Starting Burst of 9 Ticks: total 80
+threadC, Still 8 to go Ticks: total 90
+Queuing thread threadD at Time 100, priority 0
+Queuing thread threadE at Time 100, priority 0
+Queuing thread threadF at Time 100, priority 0
+threadC, Still 7 to go Ticks: total 100
+threadC, Still 6 to go Ticks: total 110
+threadA, Still 3 to go Ticks: total 130
+threadA, Still 2 to go Ticks: total 140
+threadA, Still 1 to go Ticks: total 150
+threadA, Still 0 to go Ticks: total 160
+threadA, Done with burst Ticks: total 160
+threadB, Still 5 to go Ticks: total 170
+threadB, Still 4 to go Ticks: total 180
+threadB, Still 3 to go Ticks: total 190
+Queuing thread threadG at Time 200, priority 0
+threadD, Starting Burst of 12 Ticks: total 200
+threadD, Still 11 to go Ticks: total 210
+threadD, Still 10 to go Ticks: total 220
+threadD, Still 9 to go Ticks: total 230
+threadE, Starting Burst of 15 Ticks: total 240
+Queuing thread threadH at Time 250, priority 0
+Queuing thread threadI at Time 250, priority 0
+Queuing thread threadJ at Time 250, priority 0
+Queuing thread threadK at Time 250, priority 0
+threadE, Still 14 to go Ticks: total 250
+threadE, Still 13 to go Ticks: total 260
+threadE, Still 12 to go Ticks: total 270
+threadF, Starting Burst of 12 Ticks: total 280
+threadF, Still 11 to go Ticks: total 290
+threadF, Still 10 to go Ticks: total 300
+threadF, Still 9 to go Ticks: total 310
+threadC, Still 5 to go Ticks: total 330
+threadC, Still 4 to go Ticks: total 340
+threadC, Still 3 to go Ticks: total 350
+threadG, Starting Burst of 14 Ticks: total 360
+threadG, Still 13 to go Ticks: total 370
+threadG, Still 12 to go Ticks: total 380
+threadG, Still 11 to go Ticks: total 390
+threadB, Still 2 to go Ticks: total 410
+threadB, Still 1 to go Ticks: total 420
+threadB, Still 0 to go Ticks: total 430
+threadB, Done with burst Ticks: total 430
+threadD, Still 8 to go Ticks: total 440
+threadD, Still 7 to go Ticks: total 450
+threadD, Still 6 to go Ticks: total 460
+threadH, Starting Burst of 13 Ticks: total 470
+threadH, Still 12 to go Ticks: total 480
+threadH, Still 11 to go Ticks: total 490
+threadH, Still 10 to go Ticks: total 500
+threadI, Starting Burst of 9 Ticks: total 510
+threadI, Still 8 to go Ticks: total 520
+threadI, Still 7 to go Ticks: total 530
+threadI, Still 6 to go Ticks: total 540
+threadJ, Starting Burst of 14 Ticks: total 550
+threadJ, Still 13 to go Ticks: total 560
+threadJ, Still 12 to go Ticks: total 570
+threadJ, Still 11 to go Ticks: total 580
+threadK, Starting Burst of 13 Ticks: total 590
+threadK, Still 12 to go Ticks: total 600
+threadK, Still 11 to go Ticks: total 610
+threadK, Still 10 to go Ticks: total 620
+threadE, Still 11 to go Ticks: total 640
+threadE, Still 10 to go Ticks: total 650
+threadE, Still 9 to go Ticks: total 660
+threadF, Still 8 to go Ticks: total 680
+threadF, Still 7 to go Ticks: total 690
+threadF, Still 6 to go Ticks: total 700
+threadC, Still 2 to go Ticks: total 720
+threadC, Still 1 to go Ticks: total 730
+threadC, Still 0 to go Ticks: total 740
+threadC, Done with burst Ticks: total 740
+threadG, Still 10 to go Ticks: total 750
+threadG, Still 9 to go Ticks: total 760
+threadG, Still 8 to go Ticks: total 770
+threadD, Still 5 to go Ticks: total 790
+threadD, Still 4 to go Ticks: total 800
+threadD, Still 3 to go Ticks: total 810
+threadH, Still 9 to go Ticks: total 830
+threadH, Still 8 to go Ticks: total 840
+threadH, Still 7 to go Ticks: total 850
+threadI, Still 5 to go Ticks: total 870
+threadI, Still 4 to go Ticks: total 880
+threadI, Still 3 to go Ticks: total 890
+threadJ, Still 10 to go Ticks: total 910
+threadJ, Still 9 to go Ticks: total 920
+threadJ, Still 8 to go Ticks: total 930
+threadK, Still 9 to go Ticks: total 950
+threadK, Still 8 to go Ticks: total 960
+threadK, Still 7 to go Ticks: total 970
+threadE, Still 8 to go Ticks: total 990
+threadE, Still 7 to go Ticks: total 1000
+threadE, Still 6 to go Ticks: total 1010
+threadF, Still 5 to go Ticks: total 1030
+threadF, Still 4 to go Ticks: total 1040
+threadF, Still 3 to go Ticks: total 1050
+threadG, Still 7 to go Ticks: total 1070
+threadG, Still 6 to go Ticks: total 1080
+threadG, Still 5 to go Ticks: total 1090
+threadD, Still 2 to go Ticks: total 1110
+threadD, Still 1 to go Ticks: total 1120
+threadD, Still 0 to go Ticks: total 1130
+threadD, Done with burst Ticks: total 1130
+threadH, Still 6 to go Ticks: total 1140
+threadH, Still 5 to go Ticks: total 1150
+threadH, Still 4 to go Ticks: total 1160
+threadI, Still 2 to go Ticks: total 1180
+threadI, Still 1 to go Ticks: total 1190
+threadI, Still 0 to go Ticks: total 1200
+threadI, Done with burst Ticks: total 1200
+threadJ, Still 7 to go Ticks: total 1210
+threadJ, Still 6 to go Ticks: total 1220
+threadJ, Still 5 to go Ticks: total 1230
+threadK, Still 6 to go Ticks: total 1250
+threadK, Still 5 to go Ticks: total 1260
+threadK, Still 4 to go Ticks: total 1270
+threadE, Still 5 to go Ticks: total 1290
+threadE, Still 4 to go Ticks: total 1300
+threadE, Still 3 to go Ticks: total 1310
+threadF, Still 2 to go Ticks: total 1330
+threadF, Still 1 to go Ticks: total 1340
+threadF, Still 0 to go Ticks: total 1350
+threadF, Done with burst Ticks: total 1350
+threadG, Still 4 to go Ticks: total 1360
+threadG, Still 3 to go Ticks: total 1370
+threadG, Still 2 to go Ticks: total 1380
+threadH, Still 3 to go Ticks: total 1400
+threadH, Still 2 to go Ticks: total 1410
+threadH, Still 1 to go Ticks: total 1420
+threadH, Still 0 to go Ticks: total 1430
+threadH, Done with burst Ticks: total 1430
+threadJ, Still 4 to go Ticks: total 1440
+threadJ, Still 3 to go Ticks: total 1450
+threadJ, Still 2 to go Ticks: total 1460
+threadK, Still 3 to go Ticks: total 1480
+threadK, Still 2 to go Ticks: total 1490
+threadK, Still 1 to go Ticks: total 1500
+threadK, Still 0 to go Ticks: total 1510
+threadK, Done with burst Ticks: total 1510
+threadE, Still 2 to go Ticks: total 1520
+threadE, Still 1 to go Ticks: total 1530
+threadE, Still 0 to go Ticks: total 1540
+threadE, Done with burst Ticks: total 1540
+threadG, Still 1 to go Ticks: total 1550
+threadG, Still 0 to go Ticks: total 1560
+threadG, Done with burst Ticks: total 1560
+threadJ, Still 1 to go Ticks: total 1570
+threadJ, Still 0 to go Ticks: total 1580
+threadJ, Done with burst Ticks: total 1580
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 1580, idle 0, system 1580, user 0
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+

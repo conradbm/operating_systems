@@ -1,0 +1,1 @@
+./nachos -st prio_p $* > test.5.out

@@ -1,0 +1,1 @@
+./nachos -st sjf_p $* > test.3.out

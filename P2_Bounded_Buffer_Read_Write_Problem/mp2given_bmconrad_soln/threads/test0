@@ -1,0 +1,1 @@
+./nachos -syn $* >test.0.out
